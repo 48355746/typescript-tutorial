@@ -159,7 +159,7 @@ let tom: Person = {
 interface Person {
     name: string;
     age?: number;
-    [propName: string]: string | number;
+    [propName: string]: string | number | undefined;
 }
 
 let tom: Person = {
